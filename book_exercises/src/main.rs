@@ -12,7 +12,7 @@ fn main() {
 
 fn test_statics_analysis() {
     let data_array = vec![20, 20, 20, 40, 25, 40];
-    statics_analysis::statics_analysis::statisc_analysis_from_array(data_array);
+    statics_analysis::statics_analysis::statics_analysis_from_array(data_array);
 }
 
 fn test_pig_latin() {

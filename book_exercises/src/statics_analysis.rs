@@ -8,7 +8,7 @@ pub mod statics_analysis {
             return size / 2 + 1;
         }
     }
-    pub fn statisc_analysis_from_array(mut array: vec::Vec<i32>) {
+    pub fn statics_analysis_from_array(mut array: vec::Vec<i32>) {
         let mut mean = 0.0;
         let size = array.len() as f32;
         let middle = get_middle_index(size as usize);
