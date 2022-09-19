@@ -1,3 +1,7 @@
+# Comparação em relação a performance do __for__ loop em C e em __rust__
+
+## Question
+
 ```c
 for (int i = 0; i < 10; i++){
 
@@ -17,6 +21,8 @@ for i in 0..10{
 
 thinking about performance, can I say C code is better ?
 what 0..10 really does ?
+
+## Answer
 
 Before optimizations: surely
 
@@ -95,4 +101,4 @@ loop {
 
 Which is pretty much the same as the C version.
 
-by: _Skifire13_. (an cool reddit user)
+by: _Skifire13_. (a cool reddit user)

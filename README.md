@@ -12,3 +12,5 @@ Alguns códigos feitos durante a leitura do livro, para melhor entendimento da l
 - [Comparação em relação a performance do __for__ loop em C e em __rust__](for_loop_performance.md)
 
 - [Passagem por valor e por referência](create_vec.md)
+
+- [Mostrando Bytes como Python](print_vec_u8_like_python.md)
