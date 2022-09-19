@@ -40,6 +40,7 @@ loop {
 }
 
 ```
+
 __0..10__ is an __Iterator__, so __IntoIterator::into_iter__ is a noop and will surely be inlined  
 __Iterator::next__ is what's actually doing all the work. For the __Range__ (i.e. the type of __0..10__, which may be different if you use __..=__ or you omit one of the two bounds) type it is implemented as:
 

@@ -12,7 +12,7 @@ fn create_vec() -> Vec<i32> {
 
 ```
 
-it is cheap ? Like when we create function with returns a std::vector<int>* in C++ If not cheap, how create a function with returns a Vec in cheap way ?
+it is cheap ? Like when we create function with returns a std::vector\<int>* in C++ If not cheap, how create a function with returns a Vec in cheap way ?
 
 ## Answer
 
